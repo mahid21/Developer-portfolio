@@ -5,11 +5,15 @@ body{
 h1{
     font-size: 50px;
 }
+p{
+    text-overflow: ;
+}
 .spn-color{
     color: #ffa500;
 }
-section{
+.flexible-container{
     display: flex;
+    margin-bottom: 100px;
 }
 .to_banner{
     background-image: url(images/top-banner.png);
@@ -29,4 +33,47 @@ section{
     border-radius: 5px;
     background-image: linear-gradient(orange,tomato);
     font-weight: 700;
+}
+.dream_big{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.pic-color{
+    color: #ffa500;
+}
+.mar_lft{
+    margin-left: 15px;
+    
+}
+.las_width{
+    box-shadow:10px 10px 40px gray;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5px;
+    padding: 10px;
+    font-size: 25px;
+    border-radius: 8px;
+    
+
+}
+.last-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#ht_d{
+    border-left: 7px solid;
+    border-image: linear-gradient(salmon,tomato);
+    border-image-slice: 1;
+}
+#web_lft{
+    border-left: 7px solid;
+    border-image:linear-gradient(blue,cyan);
+    border-image-slice: 1;
+
+}
+footer p{
+    text-align: center;
+    
 }
